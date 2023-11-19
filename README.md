@@ -2,7 +2,7 @@ Esp32 PC remote switch button
 ====================
 
 
-## compile:
+## Compile:
 ```c
 /**
  *
@@ -15,13 +15,13 @@ Esp32 PC remote switch button
 change it , use esp32 sdk to build it
 
 
-## usage:
+## Usage:
 ```bash 
 curl -X POST http://{your esp32 wifi connect ip}/click
 ```
 
 
-## Show
+## Show:
 
 <img src="./image/main_board.jpg" width="50%">
 <img src="./image/switch.jpg" width="50%">
