@@ -19,3 +19,9 @@ change it , use esp32 sdk to build it
 ```bash 
 curl -X POST http://{your esp32 wifi connect ip}/click
 ```
+
+
+## Show
+
+<img src="./image/main_board.jpg" width="50%">
+<img src="./image/switch.jpg" width="50%">
