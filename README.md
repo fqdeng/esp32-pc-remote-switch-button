@@ -1,9 +1,16 @@
-ESP-IDF template app
+Simple esp32 http server
 ====================
 
-This is a template application to be used with [Espressif IoT Development Framework](https://github.com/espressif/esp-idf).
+```c
+/**
+ *
+ * #define EXAMPLE_ESP_WIFI_SSID      ""
+ * #define EXAMPLE_ESP_WIFI_PASS      ""
+ */
+#include "wifi_password.h" // put the comment to this file
 
-Please check [ESP-IDF docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for getting started instructions.
+```
+change it , use esp32 sdk to build it
 
 *Code in this repository is in the Public Domain (or CC0 licensed, at your option.)
 Unless required by applicable law or agreed to in writing, this
