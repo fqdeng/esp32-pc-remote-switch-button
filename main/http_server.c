@@ -7,27 +7,19 @@
    CONDITIONS OF ANY KIND, either express or implied.
 */
 
-#include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <esp_log.h>
 #include <nvs_flash.h>
-#include <sys/param.h>
 #include "esp_netif.h"
-#include "protocol_examples_common.h"
 #include "protocol_examples_utils.h"
 #include "esp_tls_crypto.h"
 #include <esp_http_server.h>
 #include "esp_event.h"
-#include "esp_netif.h"
-#include "esp_tls.h"
 #include "http_server.h"
 
 #if !CONFIG_IDF_TARGET_LINUX
-#include <esp_wifi.h>
 #include <esp_system.h>
-#include "nvs_flash.h"
-#include "esp_eth.h"
 #include "wifi_connect.h"
 #include "driver/gpio.h"
 
