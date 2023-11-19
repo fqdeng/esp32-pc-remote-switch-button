@@ -1,6 +1,8 @@
-Simple esp32 http server
+Esp32 PC remote switch button
 ====================
 
+
+## compile:
 ```c
 /**
  *
@@ -12,3 +14,8 @@ Simple esp32 http server
 ```
 change it , use esp32 sdk to build it
 
+
+## usage:
+```bash 
+curl -X POST http://{your esp32 wifi connect ip}/click
+```
