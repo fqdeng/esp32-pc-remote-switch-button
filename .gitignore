@@ -2,5 +2,5 @@ build/
 sdkconfig
 sdkconfig.old
 wifi_password.h
-.idea
+.idea/
 cmake-build-debug
